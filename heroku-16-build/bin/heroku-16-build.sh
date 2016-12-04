@@ -32,6 +32,7 @@ apt-get install -y --force-yes \
     libncurses5-dev \
     libpam0g-dev \
     libpq-dev \
+    librabbitmq-dev \
     libreadline-dev \
     libssl-dev \
     libuv1-dev \

@@ -111,6 +111,7 @@ apt-get install -y --force-yes \
     libgnutls-openssl27 \
     libgnutlsxx28 \
     libmysqlclient20 \
+    librabbitmq4 \
     libuv1 \
     libxslt1.1 \
     libmemcached11 \
