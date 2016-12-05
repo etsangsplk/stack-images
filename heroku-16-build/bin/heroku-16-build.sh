@@ -16,6 +16,7 @@ apt-get install -y --force-yes \
     libcurl4-openssl-dev \
     libevent-dev \
     libev-dev \
+    libexif-dev \
     libffi-dev \
     libgcrypt20-dev \
     libglib2.0-dev \
