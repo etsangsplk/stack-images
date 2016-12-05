@@ -101,6 +101,7 @@ apt-get install -y --force-yes \
     libevent-openssl-2.0-5 \
     libevent-pthreads-2.0-5 \
     libexif12 \
+    libgd3 \
     libgnutls-openssl27 \
     libgnutlsxx28 \
     libmysqlclient20 \

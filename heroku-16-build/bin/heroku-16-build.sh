@@ -19,6 +19,7 @@ apt-get install -y --force-yes \
     libexif-dev \
     libffi-dev \
     libgcrypt20-dev \
+    libgd-dev \
     libglib2.0-dev \
     libgnutls-dev \
     libicu-dev \
