@@ -126,25 +126,14 @@ apt-get install -y --force-yes --no-install-recommends \
     libmagickcore-6.q16-2-extra \
     netpbm \
 
-# locales
-#apt-cache search language-pack \
-#    | cut -d ' ' -f 1 \
-#    | grep -v '^language\-pack\-\(gnome\|kde\|touch\)\-' \
-#    | grep -v '\-base$' \
-#    | xargs apt-get install -y --force-yes --no-install-recommends
-
-# TODO: INSTALL JDK
-# GENERATE CERTIFICATES
-# REMOVE JDK
-
-#http://askubuntu.com/questions/17745/how-to-remove-a-deb-without-removing-its-dependencies
-#https://github.com/heroku/heroku-buildpack-jvm-common/blob/master/bin/java#L69-L75
-#openjdk-9-jre-headless
-#default-jre-headless
-#dpkg -r --force-depends <jre>
+# we want just the certs so the JVM buildpack can use them at runtime
+# force JDK 8, that's 100 MB vs JDK 9's 300 MB
 apt-get install -y --no-install-recommends ca-certificates-java openjdk-8-jre-headless
+# remove again, the certificates remain in place because they're generated in the step above
 apt-get remove -y ca-certificates-java
+# purge deps of JDK
 apt-get -y --purge autoremove
+# purge JDK config
 apt-get purge -y openjdk-8-jre-headless
 stat /etc/ssl/certs/java/cacerts
 
