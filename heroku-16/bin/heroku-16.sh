@@ -120,6 +120,7 @@ apt-get install -y --force-yes \
     syslinux \
     tar \
     telnet \
+    wget \
     zip \
 
 # avoid ghostscript
