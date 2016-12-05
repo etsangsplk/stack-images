@@ -94,17 +94,6 @@ apt-get install -y --force-yes \
     git \
     iputils-tracepath \
     language-pack-en \
-    netcat-openbsd \
-    openssh-client \
-    postgresql-client-9.5 \
-    python \
-    ruby \
-    socat \
-    stunnel \
-    syslinux \
-    tar \
-    telnet \
-    zip \
     libcurl3 \
     libev4 \
     libevent-core-2.0-5 \
@@ -119,7 +108,18 @@ apt-get install -y --force-yes \
     libxslt1.1 \
     libmemcached11 \
     libmcrypt4 \
-    
+    netcat-openbsd \
+    openssh-client \
+    postgresql-client-9.5 \
+    python \
+    ruby \
+    socat \
+    stunnel \
+    syslinux \
+    tar \
+    telnet \
+    zip \
+
 # avoid ghostscript
 apt-get install -y --force-yes --no-install-recommends \
     imagemagick \
