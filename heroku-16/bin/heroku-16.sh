@@ -107,7 +107,10 @@ apt-get install -y --force-yes \
     zip \
     libcurl3 \
     libev4 \
-    libevent-2.0-5 \
+    libevent-core-2.0-5 \
+    libevent-extra-2.0-5 \
+    libevent-openssl-2.0-5 \
+    libevent-pthreads-2.0-5 \
     libgnutls-openssl27 \
     libgnutlsxx28 \
     libmysqlclient20 \
