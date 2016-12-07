@@ -104,12 +104,12 @@ apt-get install -y --force-yes \
     libgd3 \
     libgnutls-openssl27 \
     libgnutlsxx28 \
+    libmcrypt4 \
+    libmemcached11 \
     libmysqlclient20 \
     librabbitmq4 \
     libuv1 \
     libxslt1.1 \
-    libmemcached11 \
-    libmcrypt4 \
     netcat-openbsd \
     openssh-client \
     postgresql-client-9.5 \
