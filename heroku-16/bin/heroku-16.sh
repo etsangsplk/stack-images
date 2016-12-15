@@ -111,6 +111,7 @@ apt-get install -y --force-yes \
     librabbitmq4 \
     libuv1 \
     libxslt1.1 \
+    make \
     netcat-openbsd \
     openssh-client \
     postgresql-client-9.5 \
