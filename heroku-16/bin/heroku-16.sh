@@ -92,6 +92,7 @@ apt-get install -y --force-yes \
     dnsutils \
     ed \
     git \
+    imagemagick \
     iputils-tracepath \
     language-pack-en \
     libcurl3 \
@@ -122,12 +123,6 @@ apt-get install -y --force-yes \
     telnet \
     wget \
     zip \
-
-# avoid ghostscript
-apt-get install -y --force-yes --no-install-recommends \
-    imagemagick \
-    libmagickcore-6.q16-2-extra \
-    netpbm \
 
 # we want just the certs so the JVM buildpack can use them at runtime
 # force JDK 8, that's 100 MB vs JDK 9's 300 MB

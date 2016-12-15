@@ -30,6 +30,7 @@ apt-get install -y --force-yes \
     libgeoip-dev \
     libglib2.0-dev \
     libgnutls-dev \
+    libgs-dev \
     libicu-dev \
     libidn11-dev \
     libjpeg-dev \
