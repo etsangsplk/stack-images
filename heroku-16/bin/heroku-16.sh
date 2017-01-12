@@ -114,6 +114,7 @@ apt-get install -y --force-yes \
     make \
     netcat-openbsd \
     openssh-client \
+    openssh-server \
     postgresql-client-9.5 \
     python \
     ruby \
